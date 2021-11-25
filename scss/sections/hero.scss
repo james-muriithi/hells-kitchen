@@ -1,0 +1,33 @@
+#home {
+  nav {
+    background: rgba($color: $black, $alpha: 0.6);
+    height: 55px;
+    .navbar-brand {
+      color: $primary;
+      font-weight: bold;
+      img {
+        height: 50px;
+        width: 50px;
+      }
+    }
+    .nav-link {
+      color: $white;
+      font-weight: bold;
+      font-size: $spacer;
+      &:hover,
+      &.active {
+        color: $primary;
+      }
+    }
+    .nav-item {
+      .btn {
+        background: $primary;
+        color: $white;
+      }
+    }
+  }
+  background: url("../images/bg.png");
+  height: 100%;
+  background-position: center center;
+  background-size: cover;
+}
