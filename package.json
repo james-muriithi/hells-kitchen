@@ -1,0 +1,26 @@
+{
+    "name": "hells-kitchen",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "css": "node-sass --include-path scss scss/index.scss css/style.css",
+        "watch": "nodemon -e scss -x npm run css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/james-muriithi/hells-kitchen.git"
+    },
+    "keywords": [],
+    "author": "james-muriithi",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/james-muriithi/hells-kitchen/issues"
+    },
+    "homepage": "https://github.com/james-muriithi/hells-kitchen#readme",
+    "devDependencies": {
+        "bootstrap": "^5.1.3",
+        "node-sass": "^6.0.1",
+        "nodemon": "^2.0.15"
+    }
+}
