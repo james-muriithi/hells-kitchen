@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap");
+body,
+html {
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+
+#home {
+  background: url("../images/bg.png");
+  height: 100%;
+  background-position: center center;
+  background-size: cover;
+}
+
+#home nav {
+  background: rgba(0, 0, 0, 0.6);
+  height: 55px;
+}
+
+#home nav .navbar-brand {
+  color: #f19201;
+  font-weight: bold;
+}
+
+#home nav .navbar-brand img {
+  height: 50px;
+  width: 50px;
+}
+
+#home nav .nav-link {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+#home nav .nav-link:hover, #home nav .nav-link.active {
+  color: #f19201;
+}
+
+#home nav .nav-item .btn {
+  background: #f19201;
+  color: #fff;
+}
